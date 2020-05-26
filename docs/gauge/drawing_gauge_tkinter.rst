@@ -99,7 +99,7 @@ Tkinter Construction
 --------------------
 
 There are about 30 variables required to be initialised, then we can 
-construct the guge. Starting from the outer parts and working inwards. Make
+construct the gauge. Starting from the outer parts and working inwards. Make
 the bezel using pieslices adding 20° to the scale extent, so start 10° less
 and add 10° at the end. Clean up the central area, then add the joining line
 to two ends.
