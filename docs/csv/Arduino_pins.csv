@@ -1,0 +1,10 @@
+Arduino Board; Pin Type; Numbers; Remarks
+Uno;    Digital Input; 0 - 13
+Uno; Digital Output; 0 - 13
+Uno; Analogue Inputs; A0 - A5; can operate as Digital I/0
+Uno; Pulse Width Modulation (PWM); 3,5,6,9,10,11
+Uno; Serial Peripheral Interface (SPI); 10 - 13
+2560; Digital I/O; 0 - 53
+2560; Analogue Inputs; A0 - A15; can operate as Digital I/0
+2560; PWM; 2 - 13
+2560; SPI; 22 - 25

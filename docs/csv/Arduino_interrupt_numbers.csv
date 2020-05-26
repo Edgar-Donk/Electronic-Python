@@ -1,0 +1,6 @@
+Arduino Board,Interrupt,Numbers,,,,,Remarks
+,0,1,2,3,4,5,
+Uno,D2,D3,,,,,
+Leonardo,D3,D2,D0,D1,,, First two reverse to Uno
+Mega2560,D2,D3,D21,D20,D19,D18,
+Due	,,,,,,,Pin numbers as opposed to interrupt numbers

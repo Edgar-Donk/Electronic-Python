@@ -1,0 +1,30 @@
+Command$	Example$	Description
+$Digital I/O;$
+pinMode$pinMode(8,OUTPUT);$Sets pin 8 as  OUTPUT, also INPUT, INPUT_PULLUP (enable internal resistor ~40kΩ
+digitalWrite$digitalWrite(8, HIGH);$Sets pin 8 high, also LOW
+digitalRead$int i;$Sets i HIGH or LOW, dependant on pin 8
+$i = digitalRead(8);$
+pulseIn$i = pulseIn(8, HIGH)$Returns duration in microseconds of next HIGH pulse on pin 8
+tone$tone(8, 440,1000);$Pin 8 oscillates at 440Hz for 1000 milliseconds
+noTone$noTone();$Stops short the playing of any tone
+$Analogue I/O$
+analogRead$int r;$Assigns a value between 0 and 1023:
+$r = analogRead(0);$0 corresponds to 0V and 1023 to 5V (3.3V for a 3.3 board)
+analogWrite$analogWrite(9, 127);$Outputs a PWM signal between 0 and 255, 255 being 100%.	
+$$On a Uno only pins (3, 5, 6, 9 10, 11) on a Mega 2 to 13.
+$Time Commands$						
+millis$unsigned long l;$32 bit long, number milliseconds since last reset, wraps after ~70 minutes
+$l = millis();$
+micros$long l;$As with millis but microseconds, also ~70 minutes					
+$l = micros();$
+delay$delay(1000)$Delays for 1000 microseconds (1 second)
+delayMicroseconds$delayMicroseconds(100000);$Delays for 100000 microseconds. Note: minimum is 3, max ~16 milliseconds
+$Serial I/O$
+Serial.begin$Serial.begin(9600);$Takes one argument that is communication speed, baud rate
+Serial.print$Serial.print(100);$Writes an ASCII character (0 - 127) human readable
+Serial.write$Serial.write(100);$Writes raw binary values of byte			
+Serial.available$Serial.available();$Returns the number of characters stored in the incoming buffer.
+Serial.read$Serial.read();$Only returns 1 byte of data, so it should run as long as Serial.available shows positive.
+$Interrupts$
+attachInterrupt$attachInterrupt(1, myFunction, RISING);$Associates myFunction with rising transition on interrupt 1 (D3 on Uno), alternative FALLING
+detachInterrupt$detachInterrupt(1);$Disables any interrupts on interrupt 1			

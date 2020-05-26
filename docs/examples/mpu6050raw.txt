@@ -1,0 +1,15 @@
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+Updating internal sensor offsets...
+1334	-2407	-300	-77	69	62	
+1334	-2407	-300	-77	69	62	
+a/g:	-8	-44	  36	9	-24	  6
+a/g:   -16	  0	 -48	6	-34	 24
+a/g:   -28	 40	 144  -12	  3	-33
+a/g:   -52	 12	 252  -24	-38	 -9
+a/g:   -24	 40	  28   -1	  9	 -8
+a/g:	-8	  4	 196	3	-37	-16
+a/g:	16	 48	  56   21	 -4	 14
+a/g:   -80	 60	-100	9	 -8	  2
+a/g:	52	  0	 128   -2	-39	-25
