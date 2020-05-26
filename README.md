@@ -7,3 +7,5 @@ A quick overview of electronics, Arduino flavour, followed by an overview of VPy
 for simple projects.
 
 Create your own gauges to interact with Arduino, either in tkinter or PIL (Pillow).
+
+Read it all in `Read the Docs <https://electronic-python.readthedocs.io/en/latest/>`_
