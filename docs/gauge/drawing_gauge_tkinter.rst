@@ -102,7 +102,7 @@ There are about 30 variables required to be initialised, then we can
 construct the gauge. Starting from the outer parts and working inwards. Make
 the bezel using pieslices adding 20° to the scale extent, so start 10° less
 and add 10° at the end. Clean up the central area, then add the joining line
-to two ends.
+to the two ends.
 
 Next the two rows of ticks are made, the small ticks in the highlight colour
 the larger ticks in the ghost colour. Then we can make the deltas and text 
