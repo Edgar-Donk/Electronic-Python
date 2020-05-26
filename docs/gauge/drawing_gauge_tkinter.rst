@@ -125,7 +125,7 @@ always redrawn, no matter what.
 
     .. literalinclude:: ../scripts/lcd_tk.py
 
-Finally import this into a python script that runs with our trusty 2 LDRs::
+Finally import this into a python script that runs with our trusty 2 LDRs.
 
 .. container:: toggle
 
