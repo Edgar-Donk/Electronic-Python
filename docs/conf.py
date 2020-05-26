@@ -36,7 +36,7 @@ extensions = [#'sphinx.ext.todo',
               'sphinx.ext.autodoc',
               #'hidden_code_block'
               "sphinx.ext.autosummary",
-              "numpydoc",
+              #"numpydoc",
               'sphinx.ext.mathjax',
 			  'sphinx.ext.autosectionlabel'
 ]
