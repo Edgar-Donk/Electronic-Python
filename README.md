@@ -8,4 +8,4 @@ for simple projects.
 
 Create your own gauges to interact with Arduino, either in tkinter or PIL (Pillow).
 
-Read it all in `Read the Docs <https://electronic-python.readthedocs.io/en/latest/>`_
+Read it all in Read the Docs [a link](https://electronic-python.readthedocs.io/en/latest/)
