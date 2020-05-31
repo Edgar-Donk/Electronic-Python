@@ -38,7 +38,7 @@ extensions = [#'sphinx.ext.todo',
               "sphinx.ext.autosummary",
               #"numpydoc",
               'sphinx.ext.mathjax',
-			  'sphinx.ext.autosectionlabel'
+		'sphinx.ext.autosectionlabel'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -61,7 +61,8 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "sphinx_rtd_theme"# "pydata_sphinx_theme" # "sphinxdoc" # 'alabaster'
+html_theme_path = ['pydata_sphinx_theme']
+html_theme = "pydata_sphinx_theme" # "sphinx_rtd_theme" # "sphinxdoc" # 'alabaster'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -69,21 +70,21 @@ html_theme = "sphinx_rtd_theme"# "pydata_sphinx_theme" # "sphinxdoc" # 'alabaste
 html_static_path = ['_static']
 
 html_theme_options = {
-  #"show_prev_next": True,
+  "show_prev_next": True,
   # search bar options are ‘navbar’ and ‘sidebar’.
-  #"search_bar_position": "sidebar",
+  "search_bar_position": "sidebar",
   #  "use_edit_page_button": True,
-  'display_version': True,
-    'prev_next_buttons_location': 'both',
-    'logo_only': False,
-    'style_nav_header_background': '#98dbcc',
-    'style_external_links': True,
+  #'display_version': True,
+    #'prev_next_buttons_location': 'both',
+    #'logo_only': False,
+    #'style_nav_header_background': '#98dbcc',
+    #'style_external_links': True,
     # Toc options
-    'collapse_navigation': False,
-    'sticky_navigation': True,
-    'navigation_depth': 3,
-    'includehidden': True,
-    'titles_only': False
+    #'collapse_navigation': False,
+    #'sticky_navigation': True,
+    #'navigation_depth': 3,
+    #'includehidden': True,
+    #'titles_only': False
 }
 
 html_sidebars = {
@@ -96,5 +97,5 @@ html_sidebars = {
     ]
 }
 
-html_logo = '_static/ben1.png' #ben1.png
+html_logo = '_static/ben2.png' #ben1.png
 html_favicon = '_static/ben1.ico'
