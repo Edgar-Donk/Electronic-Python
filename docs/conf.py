@@ -51,7 +51,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # option for show/hide code
 def setup(app):
-    app.add_stylesheet('custom.css')
+    app.add_css_file('custom.css')
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
