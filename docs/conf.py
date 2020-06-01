@@ -10,10 +10,10 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
-import sys
-sys.path.append(os.path.abspath('../')) # sys.path.insert(0, os.path.abspath('.'))
-import pydata_sphinx_theme
+#import os
+#import sys
+#sys.path.append(os.path.abspath('../')) # sys.path.insert(0, os.path.abspath('.'))
+#import pydata_sphinx_theme
 
 # -- Project information -----------------------------------------------------
 
@@ -63,7 +63,7 @@ pygments_style = 'sphinx'
 #
 # html_theme_path = ['pydata_sphinx_theme']
 html_theme = "pydata_sphinx_theme" # "sphinx_rtd_theme" # "sphinxdoc" # 'alabaster'
-html_theme_path = pydata_sphinx_theme.get_html_theme_path()
+#html_theme_path = pydata_sphinx_theme.get_html_theme_path()
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
