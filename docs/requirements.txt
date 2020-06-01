@@ -1,0 +1,7 @@
+sphinx
+numpydoc
+recommonmark
+pandas
+jupyter_sphinx
+plotly
+numpy
