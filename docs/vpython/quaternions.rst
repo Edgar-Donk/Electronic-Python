@@ -80,6 +80,8 @@ label variables.
 .. figure:: ../figures/plot_quat1.png
     :width: 424
     :height: 321
+    :alt: vpython plot of quaternions
+    :align: center
     
     Plotting the quaternion in vpython
 
@@ -128,6 +130,8 @@ output is shown when rotating around all three axes.
 .. figure:: ../figures/quat3axisrotation.png
     :width: 415
     :height: 202
+    :alt: graph of sensor rotating around 3 axes
+    :align: center
     
     Quaternion Rotating about all 3 Axes `Pete Scheidler <https://blog.endaq.com/quaternions-for-orientation>`_
 
@@ -138,6 +142,8 @@ discontinuities at 180° and -180°, instead of the sinusoidal curves shown.
 .. figure:: ../figures/quatcontinuous.png
     :width: 639
     :height: 304
+    :alt: graph of sensor rotating 1 axis 3 times
+    :align: center
     
     Quaternion Rotating one axis 3 times
     
@@ -154,6 +160,8 @@ about that axis.
 .. figure:: ../figures/axis-angle.png
     :width: 375
     :height: 216
+    :alt: unit vector and rotation
+    :align: center
 
 An axis-angle rotation can therefore be represented by four numbers as in 
 following equation::
@@ -211,6 +219,8 @@ Creating a Glider
 .. figure:: ../figures/glider1.png
     :width: 608
     :height: 619
+    :alt: vpython glider
+    :align: center
     
     Drawing a glider in VPython
 
@@ -249,6 +259,8 @@ not directly affect the output.
 .. figure:: ../figures/glider2.png
     :width: 453
     :height: 616
+    :alt: vpython glider with vector and angle inputs
+    :align: center
     
     Glider with Input for Rotate
 
@@ -261,6 +273,8 @@ developed above (no need for the sliders) and a plot of the values.
 .. figure:: ../figures/glider3.png
     :width: 681
     :height: 238
+    :alt: vpython glider with quaternion plot
+    :align: center
     
     Quaternion Glider
 

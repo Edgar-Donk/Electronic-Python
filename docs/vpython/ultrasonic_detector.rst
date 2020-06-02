@@ -55,6 +55,8 @@ do any calculation.
     .. figure:: ../figures/newping.png
         :width: 388
         :height: 218
+        :alt: Finding an Arduino Library
+        :align: center
     
     Often the library will have examples that enlarge the scope of the 
     simple sketch generally used. These can be found by a directory
@@ -188,6 +190,8 @@ Simple Rod
 .. figure:: ../figures/rod.png
     :width: 493
     :height: 229
+    :alt: vpython simple rod
+    :align: center
     
     Adjustable rod according to distance from object
 
@@ -219,6 +223,8 @@ Rod, Target and Text
 .. figure:: ../figures/ultratarget.png
     :width: 481
     :height: 214
+    :alt: vpython target with distance
+    :align: center
     
     Adjustable rod, target and text change with distance from object
 
@@ -241,6 +247,8 @@ Sensor in a Scene
 .. figure:: ../figures/ultraview1.png
     :width: 358
     :height: 100
+    :alt: vpython scene sensor and distance
+    :align: center
     
     Adjustable scene target and text, change with distance from object
 
@@ -264,6 +272,8 @@ the target according to coloured paper used as the target.
 .. figure:: ../figures/ultraview2.png
     :width: 755
     :height: 483
+    :alt: vpython scene sensor and distance no autoscaling
+    :align: center
     
     Using autoscale=false and right click on mouse
 

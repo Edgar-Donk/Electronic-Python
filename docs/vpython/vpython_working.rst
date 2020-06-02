@@ -14,6 +14,7 @@ generated on your default browser (address something like
 .. figure:: ../figures/ball_bounce.png
     :width: 308
     :height: 244
+    :alt: vpython bouncing ball
     
     Simple demonstration of Vpython
 
@@ -183,6 +184,7 @@ that of the packet used by vpython.
 .. figure:: ../figures/vpython2lcdsgraph.png
     :width: 662
     :height: 503
+    :alt: vpython graph used with 2 LCDs
     
     Light shone on LCDs, we know which plot corresponds to which led
 
@@ -264,6 +266,8 @@ background colour, the units shown on the gauge and background type.
 .. figure:: ../figures/ardiotech.png
     :width: 447
     :height: 241
+    :alt: ardiotech dial gauges
+    :align: center
 
 If you want to experiment with different gauges, still using the LDR Arduino
 script, go to :ref:`Making a Gauge in Python`.

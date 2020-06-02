@@ -135,6 +135,8 @@ have been directly imported from vpython.
 .. figure:: ../figures/rollpitchyaw.png
     :width: 428
     :height: 324
+    :alt: vpython show MPU module with axes
+    :align: center
 
     Representation of MPU module with arrows
 
