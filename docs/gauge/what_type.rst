@@ -57,6 +57,8 @@ range. The final result should look similar to:-
 .. figure:: ../figures/mauve_evo.png
     :width: 259px
     :height: 255px
+    :alt: evo digitale gauge
+    :align: center
 
 The gauge uses LCD lettering and figures, there is no separate pointer, as 
 in an analogue gauge, but the large ticks are highlighted in an arc. For 
@@ -134,12 +136,16 @@ In both cases the value and large ticks are changed using canvas.
     .. figure:: ../figures/pyscripterLCD.png
         :width: 227px
         :height: 243px
+        :alt: digital gauge using python idle
+        :align: center
     
         An LCD gauge as shown by PyScripter, or system.
         
     .. figure:: ../figures/thonnyLCD.png
         :width: 101px
         :height: 116px
+        :alt: digital gauge drawn on python IDE
+        :align: center
     
         Exactly the same script as shown in some IDEs. 
         

@@ -23,18 +23,22 @@ You should see background images as follows:-
 .. |70| image:: ../figures/lcd70.png
     :width: 100
     :height: 100
+    :alt: blue digital gauge -30 to 70
 
 .. |100| image:: ../figures/lcd100.png
     :width: 100
     :height: 100
+    :alt: mauve digital gauge 0 to 100
 
 .. |255| image:: ../figures/lcd255.png
     :width: 100
     :height: 100
+    :alt: red digital gauge 0 to 255
 
 .. |1023| image:: ../figures/lcd1023.png
     :width: 100
     :height: 100
+    :alt: green digital gauge 0 to 1023
 
 .. table:: Background Choices
 

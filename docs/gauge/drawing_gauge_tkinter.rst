@@ -99,10 +99,10 @@ Tkinter Construction
 --------------------
 
 There are about 30 variables required to be initialised, then we can 
-construct the gauge. Starting from the outer parts and working inwards. Make
+construct the guge. Starting from the outer parts and working inwards. Make
 the bezel using pieslices adding 20° to the scale extent, so start 10° less
 and add 10° at the end. Clean up the central area, then add the joining line
-to the two ends.
+to two ends.
 
 Next the two rows of ticks are made, the small ticks in the highlight colour
 the larger ticks in the ghost colour. Then we can make the deltas and text 
@@ -125,7 +125,7 @@ always redrawn, no matter what.
 
     .. literalinclude:: ../scripts/lcd_tk.py
 
-Finally import this into a python script that runs with our trusty 2 LDRs.
+Finally import this into a python script that runs with our trusty 2 LDRs:-
 
 .. container:: toggle
 
@@ -142,3 +142,7 @@ led colour.
 .. figure:: ../figures/lcd2ldr.png
     :width: 453
     :height: 243
+    :alt: 2 digital gauges drawn in tkinter
+    :align: center
+    
+    Tkinter Digital Gauges matching the LED Colours
