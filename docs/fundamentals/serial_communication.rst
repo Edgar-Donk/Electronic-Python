@@ -24,6 +24,10 @@ Serial Monitor
 .. figure:: ../figures/serial_monitor.png
     :width: 870
     :height: 554
+    :alt: Interfaces on Arduino Serial Monitor
+    :align: center
+    
+    Serial Monitor and its Interfaces
 
 One can send characters back to the board in the serial monitor and add a
 timestamp to the output. The serial plotter plots automatically scales to 
@@ -37,6 +41,10 @@ Serial Plotter
 .. figure:: ../figures/serial_plotter.png
     :width: 500
     :height: 354
+    :align: center
+    :alt: Output on Arduino Serial Plotter 
+    
+    Serial Plotter Output
 
 Although useful tools both are strictly limited in their abilities, 
 particularily since there is no preprogramming, and the output is not saved.

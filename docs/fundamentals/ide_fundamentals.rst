@@ -13,6 +13,8 @@ interfacing with other hardware.
 .. figure:: ../figures/new_file.png
     :width: 781
     :height: 502
+    :alt: Arduino IDE Interface
+    :align: center
 
 .. topic:: IDE Sketch Interface
 
@@ -54,5 +56,11 @@ for changes in the operating system nomenclature and the fact that I am
 using a Mega 2560), your port number and Arduino type should show.
 
 .. figure:: ../figures/IDEsetup.png
+    :align: center
+    :alt: IDE Sketch Shows Processor and Serial Port 
+    :width: 761
+    :height: 766
 
+    Showing Processor and Serial Port in IDE Sketch 
+    
     Click on <Tools> and look for <Board> and <Port>
