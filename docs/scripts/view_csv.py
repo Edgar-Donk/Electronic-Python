@@ -1,6 +1,6 @@
-from tkinter import Tk, StringVar, font
-from tkinter.ttk import Frame, Treeview , Label, Scrollbar, Style, Entry, Combobox, Notebook
-import csv
+from tkinter import Tk
+from tkinter.ttk import Frame, Style, Notebook
+
 from glob import glob
 from tree import Tree
 
@@ -28,9 +28,9 @@ def csvSel(event):
     #Tree(page2,csv_value.get(),csvDelimiter) #,renew=True
 
 def on_tab_changed(event):
-        event.widget.update_idletasks()
-        tab = event.widget.nametowidget(event.widget.select())
-        event.widget.configure(height=tab.winfo_reqheight(),width=tab.winfo_reqwidth())
+    event.widget.update_idletasks()
+    tab = event.widget.nametowidget(event.widget.select())
+    event.widget.configure(height=tab.winfo_reqheight(),width=tab.winfo_reqwidth())
 
 root = Tk()
 root.wm_title("Arduino Tables")
@@ -39,7 +39,7 @@ root.geometry('+170+200')
 s = Style()
 s.theme_use('clam')
 
-csvDelimiter = '$'
+#csvDelimiter = '$'
 fr = Frame(root)
 fr.pack(fill='both',expand=1)
 
@@ -50,7 +50,7 @@ nb.enable_traversal()
 
 page1 = Frame(nb)
 csvfiles = []
-for file in glob("../csv/*.csv"):
+for file in glob("../csv_data/*.csv"):
     csvfiles.append(file)
 #csv_value = StringVar()
 #cb = Combobox(page1, values=csvfiles, state="readonly",

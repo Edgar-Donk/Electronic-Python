@@ -8,6 +8,15 @@ class Tree:
         self.csvFile = csvFile
         self.csvDelimiter = csvDelimiter
         self.renew = renew
+        s = Style()
+        s.theme_use('clam')
+        def_font = font.nametofont('TkDefaultFont')
+        font_family = def_font.actual()['family']
+        font_size = def_font.actual()['size'] + 3
+        s.configure('font.Treeview.Heading', font=(font_family,font_size,'bold'))
+        fact = font.Font(font="TkDefaultFont").metrics('linespace')
+        s.configure('font.Treeview', rowheight=fact,
+                    font=font.nametofont("TkDefaultFont"))
         self.treeColumns = []
         self.treeData = []
         if renew:
@@ -32,12 +41,13 @@ class Tree:
             pass
 
         self.fr = Frame(self.fra)
-        self.fr.pack(fill='both', expand=False) #grid(column=0, row=1, sticky='nsew')
+        self.fr.pack(fill='both', expand=False)
 
         lbl = Label(self.fr, text=self.csvFile)
         lbl.grid(column=0, row=0, sticky='n')
 
-        self.tree = Treeview(self.fr,columns=self.treeColumns, show="headings", style='font.Treeview') # ,height =20
+        self.tree = Treeview(self.fr,columns=self.treeColumns, show="headings",
+                style='font.Treeview')
         self.tree.grid(column=0, row=1, sticky='ns')
 
         vsb = Scrollbar(self.fr,orient="vertical", command=self.tree.yview)
@@ -57,22 +67,18 @@ class Tree:
             self.tree.heading(col, text=col.title())
             self.tree.column(col, width=font.Font(family="Segoe UI", size=12, weight="bold").measure(col.title()) + 10,stretch=False)
 
-        for ix, item in enumerate(self.treeData):
-            itemID = self.tree.insert('', 'end', values=item)
+        for item in self.treeData:
+            self.tree.insert('', 'end', values=item)
 
             for indx, val in enumerate(item):
-                ilen = font.nametofont('TkDefaultFont').measure(val) #*8//9
+                ilen = font.nametofont('TkDefaultFont').measure(val)
                 if self.tree.column(self.treeColumns[indx], width=None) < ilen + 10:
                     self.tree.column(self.treeColumns[indx],width=ilen + 10)
 
 if __name__ == "__main__":
     root = Tk()
-    s = Style()
-    s.theme_use('clam')
-    s.configure('font.Treeview.Heading', font=("Segoe UI",'12','bold'))
-    s.configure('font.Treeview', font='TkDefaultFont')
     page1 = Frame()
-    page1.pack(fill='both', expand=True) # grid(sticky='nsew')
-    csvFile = '../csv/Arduino_commands.csv'
-    app = Tree(page1,csvFile,csvDelimiter='$')
+    page1.pack(fill='both', expand=True)
+    CsvFile = '../csv_data/Arduino_commands.csv'
+    app = Tree(page1,CsvFile,csvDelimiter='$')
     root.mainloop()
