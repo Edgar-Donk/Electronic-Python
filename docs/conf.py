@@ -38,7 +38,7 @@ extensions = [#'sphinx.ext.todo',
               "sphinx.ext.autosummary",
               #"numpydoc",
               'sphinx.ext.mathjax',
-		'sphinx.ext.autosectionlabel'
+			  'sphinx.ext.autosectionlabel'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -61,7 +61,7 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-# html_theme_path = ['pydata_sphinx_theme']
+#html_theme_path = ['..']
 html_theme = "pydata_sphinx_theme" # "sphinx_rtd_theme" # "sphinxdoc" # 'alabaster'
 #html_theme_path = pydata_sphinx_theme.get_html_theme_path()
 
@@ -71,6 +71,8 @@ html_theme = "pydata_sphinx_theme" # "sphinx_rtd_theme" # "sphinxdoc" # 'alabast
 html_static_path = ['_static']
 
 html_theme_options = {
+    
+  #"github_url": "https://github.com/pandas-dev/pydata-sphinx-theme",
   "show_prev_next": True,
   # search bar options are ‘navbar’ and ‘sidebar’.
   "search_bar_position": "sidebar",
@@ -89,7 +91,7 @@ html_theme_options = {
 }
 
 html_sidebars = {
-    '**': [
+'''    '**': [
         'about.html',
         'navigation.html',
         'relations.html',  # needs 'show_related': True theme option to display
@@ -97,6 +99,17 @@ html_sidebars = {
 
     ]
 }
+'''
+"contributing": ["sidebar-search-bs.html", "custom-template.html"],
+    "changelog": [],
+}
 
-html_logo = '_static/ben2.png' #ben1.png
+html_context = {
+    "github_user": "pandas-dev",
+    "github_repo": "pydata-sphinx-theme",
+    "github_version": "master",
+    "doc_path": "docs",
+}
+
+html_logo = '_static/ben3.png' #ben1.png
 html_favicon = '_static/ben1.ico'
