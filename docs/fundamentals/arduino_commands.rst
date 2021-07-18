@@ -12,7 +12,7 @@ being delegated to the libraries, which enable communication with the
 electronic hardware.
 
 .. csv-table:: Arduino_commands.csv
-   :file: ../csv/Arduino_commands.csv
+   :file: ../csv_data/Arduino_commands.csv
    :header-rows: 1
    :delim: $
    :widths: 20, 45, 75

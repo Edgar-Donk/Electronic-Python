@@ -7,7 +7,7 @@ the board type. These are labelled, generally most sketches refer to the Uno
 board, so be careful when using another board.
 
 .. csv-table:: Arduino_pins.csv
-   :file: ../csv/Arduino_pins.csv
+   :file: ../csv_data/Arduino_pins.csv
    :header-rows: 1
    :delim: ;
    :widths: 15, 25, 35, 30
@@ -21,7 +21,7 @@ Table Arduino Interrupt Pins
 ----------------------------
 
 .. csv-table:: Arduino_interrupt_numbers.csv
-   :file: ../csv/Arduino_interrupt_numbers.csv
+   :file: ../csv_data/Arduino_interrupt_numbers.csv
    :header-rows: 1
    :delim: ,
    :widths: 15, 3, 3,3,3,3,3,45
