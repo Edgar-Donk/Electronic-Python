@@ -111,5 +111,5 @@ html_context = {
     "doc_path": "docs",
 }
 
-html_logo = '_static/ben3.png' #ben1.png
+html_logo = '_static/ben2.png' #ben1.png
 html_favicon = '_static/ben1.ico'
