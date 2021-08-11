@@ -36,6 +36,37 @@ Where you'll find the explanations.
 More
 ====
 
+.. raw:: html
+
+   <head>
+   <link rel="stylesheet" href="_static/imagehover_min.css">
+   <style type="text/css">
+   .aligncenter {
+         text-align: left;
+   }
+   figure, figurecaption {
+
+      display: block;
+      font-family: Aladdin, Seagull, Vivaldi, Times;
+      /*font-style: italic;
+      font-variant: small-caps;*/
+
+   }
+   </style>
+   </head>
+   <p class="aligncenter">
+   Hover over the carpet
+   <figure class="imghvr-zoom-out-right">
+      <img src="_static/flying_carpet1.png">
+         <figcaption>
+            Just click on one of the images  
+            to get whisked away on the html magic carpet.
+         </figcaption>
+   </figure>
+   </p>
+   </body>
+
+
 Some of the trickier parts of tkinter.ttk
 -----------------------------------------
 
@@ -56,15 +87,9 @@ Styling with tkinter.ttk
 
 Creating your own theme using Style.
 
-.. |car| image:: _static/flying_carpet2.png
 
-Basics and working with VPython, then create a digital gauge.
 
-.. hint:: 
 
-    Just click on one of the images |car| 
-    
-    to get whisked away on the html magic carpet.
 
     
 
