@@ -150,6 +150,10 @@ In both cases the value and large ticks are changed using canvas.
         Exactly the same script as shown in some IDEs. 
         
         The canvas has shrunk but the fonts are as before.
+    
+    The above was a result of using an Ultra High Definition monitor and
+    the program not being DPI aware (dots per inch), further information can 
+    be found at `Frothy Brew <https://frothy-brew.readthedocs.io/en/latest/dpi_aware.html>`.
 
 Saving the Output
 -----------------
