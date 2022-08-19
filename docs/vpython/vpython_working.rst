@@ -191,7 +191,7 @@ that of the packet used by vpython.
 Compare this to the output using just the serial plotter, :ref:`Serial Communication`
 the auto-sizing feature of the plotter creates that jagged plot output, we 
 have two plots that we cannot customize, whereas vpython allows us to 
-show what the plots actually are. later on we shall see how important this
+show what the plots actually are. Later on we shall see how important this
 can be.
 
 Ardiotech Dial Gauges
