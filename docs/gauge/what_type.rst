@@ -130,7 +130,7 @@ In both cases the value and large ticks are changed using canvas.
     PIL. 
     
     When running canvas in a standard IDE, such as Spyder or Thonny, 
-    the results look nothing like when running from the system, Idle or
+    the results may look nothing like when running from the system, Idle or
     PyScripter.
     
     .. figure:: ../figures/pyscripterLCD.png
@@ -153,7 +153,13 @@ In both cases the value and large ticks are changed using canvas.
     
     The above was a result of using an Ultra High Definition monitor and
     the program not being DPI aware (dots per inch), further information can 
-    be found at `Frothy Brew <https://frothy-brew.readthedocs.io/en/latest/dpi_aware.html>`.
+    be found at `Frothy Brew <https://frothy-brew.readthedocs.io/en/latest/dpi_aware.html>`_.
+    
+    The situation is rectified by first querying the computer to find out
+    what the operating system is then scale appropriately. This enlargement
+    factor is applied to all pixel dimensions, but not the fonts, within
+    a dpi aware script. When done correctly all IDEs should produce the
+    same results as in the first image.
 
 Saving the Output
 -----------------
