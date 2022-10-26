@@ -121,9 +121,9 @@ always redrawn, no matter what.
 
     .. container:: header
 
-        *Show/Hide Code* lcd_tk.py
+        *Show/Hide Code* lcd_tk_dpi.py
 
-    .. literalinclude:: ../scripts/lcd_tk.py
+    .. literalinclude:: ../scripts/lcd_tk_dpi.py
 
 Finally import this into a python script that runs with our trusty 2 LDRs:-
 
