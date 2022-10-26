@@ -1,7 +1,7 @@
 from tkinter import Tk,Frame
 
 import serial
-from lcd_tk import LCD
+from lcd_tk_dpi import LCD
 
 oldq0=511
 oldq1=511

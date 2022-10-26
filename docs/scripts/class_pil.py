@@ -110,7 +110,7 @@ class LCDpil:
         w=lcds[select]['w']
         gtype=lcds[select]['lcd']
         # better looking than just drawing original size
-        imgr=img.resize((w,w),resample=Image.LANCZOS)
+        imgr=img.resize((w,w),resample=Image.Resampling.LANCZOS)
         imgr.save('../figures/'+gtype+'.png')
 
 if __name__ =='__main__':
