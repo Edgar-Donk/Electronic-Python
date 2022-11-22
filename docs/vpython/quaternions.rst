@@ -15,7 +15,7 @@ Think of i, j and k as being mutually orthogonal imaginary vectors of unit
 length. As in a complex number ``i`` represents the square root of -1, so
 j and k are also the square root of -1. This means that::
 
-    ii = -!
+    ii = -1
     jj = -1
     kk = -1
 
@@ -87,7 +87,7 @@ label variables.
 
 .. sidebar:: Using the While Loop
 
-    the first while loop could have been ``while True`` or ``shile 1 == 1``,
+    the first while loop could have been ``while True`` or ``while 1 == 1``,
     neither are particularly clever, but they do allow us to run continuously.
     By using ``while 'esc' not in keysdown()`` we can shut off the python 
     IDE gracefully, while still having a continuous loop. The ``esc`` key
