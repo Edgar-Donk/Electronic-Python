@@ -38,7 +38,8 @@ extensions = [#'sphinx.ext.todo',
               "sphinx.ext.autosummary",
               #"numpydoc",
               'sphinx.ext.mathjax',
-			  'sphinx.ext.autosectionlabel'
+	      'sphinx.ext.autosectionlabel',
+	      'sphinx_copybutton'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
