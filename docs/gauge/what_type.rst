@@ -154,6 +154,7 @@ In both cases the value and large ticks are changed using canvas.
     The above was a result of using an Ultra High Definition monitor and
     the program not being DPI aware (dots per inch), further information can 
     be found at `Frothy Brew <https://frothy-brew.readthedocs.io/en/latest/dpi_aware.html>`_.
+    If using a newer IDE the problem may not occur.
     
     The situation is rectified by first querying the computer to find out
     what the operating system is then scale appropriately. This enlargement
