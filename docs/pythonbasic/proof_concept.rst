@@ -1,4 +1,4 @@
-Proof of Concept
+﻿Proof of Concept
 ================
 
 .. sidebar:: Viewing the Code

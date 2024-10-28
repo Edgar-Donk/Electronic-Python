@@ -1,4 +1,4 @@
-Basic needs Python
+﻿Basic needs Python
 ==================
 
 .. sidebar:: Serial Communication
