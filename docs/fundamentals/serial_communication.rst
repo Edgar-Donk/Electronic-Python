@@ -1,4 +1,4 @@
-Serial Communication
+﻿Serial Communication
 ====================
 
 We will take the communication with the electronic components as a given, and 

@@ -1,4 +1,4 @@
-Pin Configurations
+﻿Pin Configurations
 ==================
 
 Each Arduino board have different pins for various functions, these differ 

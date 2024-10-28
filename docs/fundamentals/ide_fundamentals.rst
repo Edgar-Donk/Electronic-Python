@@ -1,4 +1,4 @@
-IDE Fundamentals
+﻿IDE Fundamentals
 ================
 
 The installation and usage of the Arduino IDE is extensively documented on
