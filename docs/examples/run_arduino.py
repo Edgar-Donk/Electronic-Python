@@ -1,4 +1,6 @@
 from tkinter import Tk,Frame
+import sys
+sys.path.append('../scripts')
 
 import serial
 from lcd_tk import LCD

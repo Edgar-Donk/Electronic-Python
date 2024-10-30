@@ -1,5 +1,7 @@
 from PIL import ImageTk
 from tkinter import Tk, Label, PhotoImage, Frame
+import sys
+sys.path.append('../scripts')
 
 import time
 from lcd_pil import pilpointer
