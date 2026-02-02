@@ -10,7 +10,7 @@ build:
   tools:
     python: "3.11"
     commands:
-		- pip install -r requirements.txt
+      - pip install -r requirements.txt
     # You can also specify other tool versions:
     # nodejs: "20"
     # rust: "1.70"
