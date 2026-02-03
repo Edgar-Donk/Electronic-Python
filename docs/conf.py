@@ -38,8 +38,8 @@ extensions = [#'sphinx.ext.todo',
               "sphinx.ext.autosummary",
               #"numpydoc",
               'sphinx.ext.mathjax',
-	      'sphinx.ext.autosectionlabel',
-	      'sphinx_copybutton'
+			  'sphinx.ext.autosectionlabel',
+			  'sphinx_copybutton'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -50,9 +50,6 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-# option for show/hide code
-def setup(app):
-    app.add_css_file('custom.css')
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -104,6 +101,10 @@ html_sidebars = {
 "contributing": ["sidebar-search-bs.html", "custom-template.html"],
     "changelog": [],
 }
+
+# option for show/hide code
+def setup(app):
+    app.add_css_file('custom.css')
 
 html_context = {
     "github_user": "pandas-dev",
