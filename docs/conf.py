@@ -67,9 +67,10 @@ html_theme = "pydata_sphinx_theme" # "sphinx_rtd_theme" # "sphinxdoc" # 'alabast
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+html_css_files = ['custom.css']
 
 html_theme_options = {
-    
+
   #"github_url": "https://github.com/pandas-dev/pydata-sphinx-theme",
   "show_prev_next": True,
   # search bar options are ‘navbar’ and ‘sidebar’.
@@ -118,9 +119,16 @@ html_context = {
 html_theme_options = {
    "logo": {
       "text": "electronic python",
-      "image_light": 'bigbenc.png',
-      "image_dark": "bigbencneon.png",
+      "image_light": 'bigbenc.avif',
+      "image_dark": "bigbencneon.avif",
    }
 }
 
 html_favicon = '_static/ben1.ico'
+
+smartquotes = False
+
+rst_prolog = f"""
+.. role:: AL
+    :class: keys
+"""
